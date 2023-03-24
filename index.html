@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    
+  </head>
+  <body>
+
+    <ul class="topnav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="http://www.rknec.edu/Academics/Academics.aspx">Academics</a></li>
+      <li><a href="http://www.rknec.edu/Academics/syllabus.aspx">Syllabus</a></li>
+      <li><a href="https://rcoem.in/login.htm;jsessionid=A258B78BA7EB84CB4420BD559A1E6807">Login Juno</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="right"><a href="about.html">About Project</a></li>
+    </ul>
+
+    <div class="container">
+      <h1>CGPA Guidance Calculator</h1>
+      <h3>Enter Grade in Capital<br>
+        "A+": 10.0<br>
+        "A": 9.0<br>
+        "A-": 8.0<br>
+        "B+": 7.0<br>
+        "B": 6.0<br>
+        "B-": 5.0<br>
+        "C+": 4.0<br>
+        "C": 3.0<br>
+        "C-": 2.0<br>
+        "D+": 1.0<br>
+        "D": 0.7<br>
+        "D-": 0.3<br>
+        "F":0.0</h3>
+      <form>
+        <div class="form-group">
+          <label for="subject1">Subject 1:</label>
+          <input type="text" id="subject1" name="subject1" class="form-control">
+          <label for="credit1">Credit Hours:</label>
+          <input type="number" id="credit1" name="credit1" class="form-control">
+          <label for="grade1">Grade:</label>
+          <input type="text" id="grade1" name="grade1" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="subject2">Subject 2:</label>
+          <input type="text" id="subject2" name="subject2" class="form-control">
+          <label for="credit2">Credit Hours:</label>
+          <input type="number" id="credit2" name="credit2" class="form-control">
+          <label for="grade2">Grade:</label>
+          <input type="text" id="grade2" name="grade2" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="subject3">Subject 3:</label>
+          <input type="text" id="subject3" name="subject3" class="form-control">
+          <label for="credit3">Credit Hours:</label>
+          <input type="number" id="credit3" name="credit3" class="form-control">
+          <label for="grade3">Grade:</label>
+          <input type="text" id="grade3" name="grade3" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="subject4">Subject 4:</label>
+          <input type="text" id="subject4" name="subject4" class="form-control">
+          <label for="credit4">Credit Hours:</label>
+          <input type="number" id="credit4" name="credit4" class="form-control">
+          <label for="grade4">Grade:</label>
+          <input type="text" id="grade4" name="grade4" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="subject4">Subject 5:</label>
+          <input type="text" id="subject5" name="subject5" class="form-control">
+          <label for="credit5">Credit Hours:</label>
+          <input type="number" id="credit5" name="credit5" class="form-control">
+          <label for="grade5">Grade:</label>
+          <input type="text" id="grade5" name="grade5" class="form-control">
+        </div><br>
+        <label for="traget">Traget:</label>
+        <input type="number" id="traget" name="traget" class="form-control">
+        <button type="button" class="btn" onclick="calculate()">Calculate CGPA</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+ 
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
